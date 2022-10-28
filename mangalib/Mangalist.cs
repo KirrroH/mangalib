@@ -78,7 +78,7 @@ namespace mangalib
         private void dgv_mangalist_CellContentDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
             int selectedRow = e.RowIndex;
-            if (selectedRow > 0)
+            if (selectedRow >= 0)
             {
                 DataGridViewRow row = dgv_mangalist.Rows[selectedRow];
                 int id_manga = Convert.ToInt32(row.Cells[0].Value);

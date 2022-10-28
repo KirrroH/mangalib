@@ -212,7 +212,7 @@
             this.MaximizeBox = false;
             this.Name = "AddManga";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Добавить в список";
+            this.Text = "Добавить мангу";
             this.Load += new System.EventHandler(this.AddManga_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
